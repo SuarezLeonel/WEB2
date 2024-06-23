@@ -74,7 +74,7 @@ p {
 header {
   background-color: #330000;
   width: 100%;
-  height: 60vh;
+  height: 60dvh;
 }
 
 /*Nav*/
@@ -287,7 +287,7 @@ footer h5 {
   }
 
   header{
-      height: 40vh;
+      height: 40dvh;
   }
 }
 
@@ -349,6 +349,6 @@ footer h5 {
   }
   
   header{
-      height: 30vh;
+      height: 30dvh;
   }
 }
