@@ -155,6 +155,11 @@ cursor: pointer;
 border-radius: 50%;
 }
 
+button:hover{
+color: #333333;
+background-color: #fff3d9;
+}
+
 /*Footer*/
 footer {
 background-color: #aa662b;
@@ -202,21 +207,29 @@ font-size: 17px;
 }
 
 .btn{
+--main-color: #323232;
 display: flex;
 align-self: center;
 justify-self: center;
 font-family: 'MightySlab', sans-serif;
 letter-spacing: 0.8px;
 font-size: 16px;
-color: #fff3d9;
+color: var(--main-color);
+background-color: #fff;
 padding: 15px 40px;
-border: solid #292929 2px;
-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border: 2px solid var(--main-color);
+box-shadow: 4px 4px var(--main-color);
 border-radius: 15px;
 flex-direction: row;
 align-items: center;
 cursor: pointer;
 margin-bottom: 1em;
+}
+
+.btn:hover{
+background-color: #383131;
+color: #fff3d9;
+border: 2px solid #fff3d9;
 }
 
 .botom{
@@ -512,5 +525,5 @@ color: var(--font-color-light);
 }
 
 button, a {
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
