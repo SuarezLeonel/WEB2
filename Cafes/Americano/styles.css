@@ -207,7 +207,7 @@ footer h5 {
 }
 
 .btn{
-  --main-color: #383131;
+  --main-color: #323232;
   display: flex;
   align-self: center;
   justify-self: center;
@@ -215,7 +215,7 @@ footer h5 {
   letter-spacing: 0.8px;
   font-size: 16px;
   color: var(--main-color);
-  background-color: #fff3d9;
+  background-color: #fff;
   padding: 15px 40px;
   border: 2px solid var(--main-color);
   box-shadow: 4px 4px var(--main-color);
