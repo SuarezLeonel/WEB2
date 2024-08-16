@@ -408,3 +408,7 @@ footer h5 {
 .input:checked + .boton .span {
   color: var(--font-color-light);
 }
+
+button, a {
+    -webkit-tap-highlight-color: transparent;
+}
